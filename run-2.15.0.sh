@@ -1,0 +1,2 @@
+javac -classpath apache-log4j-2.15.0-bin/log4j-api-2.15.0.jar:apache-log4j-2.15.0-bin/log4j-core-2.15.0.jar:apache-log4j-2.15.0-bin/log4j-web-2.15.0.jar BasicHttpServerExample.java
+java -Dlog4j2.enableJndi=false -Dlog4j2.formatMsgNoLookups=true -classpath .:apache-log4j-2.15.0-bin/log4j-api-2.15.0.jar:apache-log4j-2.15.0-bin/log4j-core-2.15.0.jar:apache-log4j-2.15.0-bin/log4j-web-2.15.0.jar BasicHttpServerExample
